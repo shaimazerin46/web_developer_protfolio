@@ -209,5 +209,39 @@ skills start */
     margin-bottom: 20px;
 }
 .resume > .resume_btn button{
-    margin: 20px 0px 20px;
+    margin: 20px 0px 100px;
+}
+
+/* resume end */
+footer{
+    padding: 100px 200px;
+    
+}
+.footer_cont{
+    display: flex;
+    gap: 100px;
+}
+.footer_cont_p{
+    width: 370px;
+}
+.resume_form input{
+    display: block;
+    margin-bottom: 10px;
+}
+.foot_cont_img{
+    display: flex;
+    gap: 20px;
+}
+footer input[type="text"],[type="email"], textarea{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+}
+.contact, .message{
+    width: 50%;
+}
+.margin_top{
+    margin-top: 20px;
 }
