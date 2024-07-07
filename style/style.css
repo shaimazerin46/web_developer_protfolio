@@ -178,3 +178,36 @@ skills start */
 .skill_img{
     padding: 10px;
 }
+/* resume start */
+.resume_container{
+    display: flex;
+   gap: 50px;
+}
+.resume_col_title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.exp_h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.exp_p1{
+    font-size: 15px;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 600;
+}
+.exp_p2{
+    width: 290px;
+}
+.experience{
+    border-bottom: 1px solid rgba(209, 209, 209, 1);
+}
+.resume h3{
+    margin: 100px;
+}
+.resume_container{
+    margin-bottom: 20px;
+}
+.resume > .resume_btn button{
+    margin: 20px 0px 20px;
+}
