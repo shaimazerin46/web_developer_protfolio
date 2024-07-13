@@ -265,7 +265,7 @@ footer input[type="text"],[type="email"], textarea{
     .skill_item p {
         width: 100%;
     }
-    .resume_container, .about_item, .banner, .footer_cont{
+    .resume_container, .about_item, .banner, .footer_cont, nav{
         flex-direction: column;
         gap: 10px;
     }
