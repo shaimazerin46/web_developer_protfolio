@@ -153,7 +153,8 @@ nav ul li a{
 skills start */
 
 .skills > p{
-    padding: 0px 250px;
+    /* padding: 0px 250px; */
+    text-align: center;
 }
 .skill_items{
     margin-top: 100px;
@@ -245,4 +246,40 @@ footer input[type="text"],[type="email"], textarea{
 }
 .margin_top{
     margin-top: 20px;
+}
+
+/* responsive styles */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skill_items{
+        flex-direction: column;
+        color: red;
+    }
+    .main{
+        padding: 0px;
+        margin: 0px;
+    }
+    .skill_item p {
+        width: 100%;
+    }
+    .resume_container{
+        flex-direction: column;
+    }
+    .footer_cont{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer_cont_p{
+        width: 100%;
+    }
+    footer {
+        padding: 20px 20px;
+    }
+    
+    .contact, .message{
+        width: 100%;
+    }
 }
