@@ -258,21 +258,18 @@ footer input[type="text"],[type="email"], textarea{
         flex-direction: column;
         color: red;
     }
-    .main{
+    .main, .about .about_con, .about .about_con p, .about_item, .footer_cont{
         padding: 0px;
         margin: 0px;
     }
     .skill_item p {
         width: 100%;
     }
-    .resume_container{
-        flex-direction: column;
-    }
-    .footer_cont{
+    .resume_container, .about_item{
         flex-direction: column;
         gap: 10px;
     }
-    .footer_cont_p{
+    .footer_cont_p, {
         width: 100%;
     }
     footer {
